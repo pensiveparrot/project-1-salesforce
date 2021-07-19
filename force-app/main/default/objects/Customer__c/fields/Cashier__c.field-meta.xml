@@ -3,11 +3,11 @@
     <fullName>Cashier__c</fullName>
     <externalId>false</externalId>
     <label>Cashier</label>
-    <referenceTo>Worker__c</referenceTo>
+    <referenceTo>Account</referenceTo>
     <relationshipLabel>Customers</relationshipLabel>
     <relationshipName>Customers</relationshipName>
     <relationshipOrder>0</relationshipOrder>
-    <reparentableMasterDetail>true</reparentableMasterDetail>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
     <trackTrending>false</trackTrending>
     <type>MasterDetail</type>
     <writeRequiresMasterRead>false</writeRequiresMasterRead>
