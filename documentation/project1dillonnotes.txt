@@ -1,0 +1,8 @@
+7/22/2021
+Dillon - Refactored data model, tested some styling, tested some apex, tried to diagnose experience cloud
+Sen - made apex controller and apex page for customer object
+Justin - worked on some apex, decided on implementing page for franchise and worked on such.
+7/23/2021
+Dillon - Fixed experience cloud(new playground org with new permissions), added auth for experience cloud users, started more work on account apex code.
+Sen - Decided not to use his batchable code for customer visualforce controller, got authed into new org, used dummy account for experience cloud.
+Justin - Further work on Franchise visualforce page/controller, got authed into new org, tested dummy account for experience cloud.
