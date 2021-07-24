@@ -1,0 +1,24 @@
+<apex:page controller="CustomerSelectController">
+    <apex:form >
+    <apex:pageBlock >
+    <apex:pageBlockTable value="{!first}" var="c">
+    	<apex:column value="{!c.Cashier__c}"/>
+    	<apex:column value="{!c.subtotal__c}"/>
+        <apex:column value="{!c.tip__c}"/>
+    </apex:pageBlockTable>
+        
+    <apex:pageBlockTable value="{!sec}" var="c">
+    	<apex:column value="{!c.Cashier__c}"/>
+    	<apex:column value="{!c.subtotal__c}"/>
+        <apex:column value="{!c.tip__c}"/>
+    </apex:pageBlockTable>
+   
+    <apex:pageBlockTable value="{!third}" var="c">
+    	<apex:column value="{!c.Cashier__c}"/>
+    	<apex:column value="{!c.subtotal__c}"/>
+        <apex:column value="{!c.tip__c}"/>
+    </apex:pageBlockTable>
+        <apex:commandButton action="{!call}" value="Tip info"/>
+    </apex:pageBlock>
+    </apex:form>
+</apex:page>
