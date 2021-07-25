@@ -3,8 +3,7 @@
     <apiVersion>52.0</apiVersion>
     <availableInTouch>true</availableInTouch>
     <confirmationTokenRequired>false</confirmationTokenRequired>
-    <description>Default experiences login page</description>
-    <label>CommunitiesLogin</label>
+    <label>Logout</label>
     <packageVersions>
         <majorNumber>1</majorNumber>
         <minorNumber>7</minorNumber>

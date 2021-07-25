@@ -3,7 +3,7 @@
     <fullName>Customer_Info__c</fullName>
     <externalId>false</externalId>
     <label>Customer Info</label>
-    <referenceTo>Customer__c</referenceTo>
+    <referenceTo>customer__c</referenceTo>
     <relationshipLabel>Customer Orders</relationshipLabel>
     <relationshipName>Customer_Orders</relationshipName>
     <relationshipOrder>0</relationshipOrder>
