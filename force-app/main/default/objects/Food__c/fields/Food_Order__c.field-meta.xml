@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>food_order__c</fullName>
-    <externalId>false</externalId>
+    <displayFormat>foodorder-{0}</displayFormat>
+    <externalId>true</externalId>
     <label>food order</label>
-    <referenceTo>Franchise__c</referenceTo>
-    <relationshipLabel>Foods</relationshipLabel>
-    <relationshipName>Foods</relationshipName>
-    <relationshipOrder>0</relationshipOrder>
-    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>
-    <type>MasterDetail</type>
-    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    <type>AutoNumber</type>
 </CustomField>

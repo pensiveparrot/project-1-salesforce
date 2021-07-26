@@ -3,10 +3,9 @@
     <fullName>food_left__c</fullName>
     <externalId>false</externalId>
     <label>food left</label>
-    <precision>18</precision>
-    <required>false</required>
-    <scale>0</scale>
+    <summaryForeignKey>food__c.food_locations__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>
-    <type>Number</type>
-    <unique>false</unique>
+    <type>Summary</type>
 </CustomField>
