@@ -1,0 +1,22 @@
+<apex:page controller="AccountCustomController">
+    <apex:form>
+    <apex:pageBlock>
+        <apex:commandbutton value="Add Account" action="{!addAccount}" immediate="true"/>
+        <apex:commandButton value="Save Changes" action="{!saveChanges}"/>
+    <apex:pageBlockTable value="{!acctList}" var="accs">
+        <apex:column headerValue="First Name">
+            <apex:inputfield value="{!accs.first_name__c}"/>
+</apex:column>
+    <apex:column headerValue="Last Name">
+    <apex:inputfield value="{!accs.last_name__c}"/>
+</apex:column>
+<apex:column headerValue="Annual Revenue">
+    <apex:inputfield value="{!accs.annualrevenue}"/>
+    </apex:column>
+    <apex:column headerValue="Rating">
+        <apex:inputfield value="{!accs.rating}"/>
+</apex:column>
+    </apex:pageBlockTable>
+    </apex:pageBlock>
+</apex:form>
+</apex:page>
