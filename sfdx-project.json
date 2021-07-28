@@ -7,6 +7,6 @@
   ],
   "name": "little-italy",
   "namespace": "",
-  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sfdcLoginUrl": "https://resilient-moose-d19mat-dev-ed.my.salesforce.com",
   "sourceApiVersion": "52.0"
 }

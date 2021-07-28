@@ -3,10 +3,34 @@
         <apex:pageBlock >
         <apex:pageBlockTable value="{!csServed}" var="a">
         <apex:column value="{!a.cashier__c}"/>
+        <apex:column value="{!a.Name}"/>
+        <apex:column value="{!a.Is_Served__c}"/>
+        <apex:column value="{!a.Service_status__c}"/>
         <apex:column value="{!a.subtotal__c}"/>
         <apex:column value="{!a.tip__c}"/>
         </apex:pageBlockTable>
         <apex:commandButton action="{!addServed}" value="Update Served Customers"/>
+        
+        <apex:pageBlockTable value="{!cList}" var="a">
+            <apex:column value="{!a.cashier__c}"/>
+            <apex:column value="{!a.Name}"/>
+            <apex:column value="{!a.Is_Served__c}"/>
+            <apex:column value="{!a.Service_status__c}"/>
+            <apex:column value="{!a.subtotal__c}"/>
+            <apex:column value="{!a.tip__c}"/>
+            </apex:pageBlockTable>
+         <apex:commandButton action="{!displayCustomerInfo}" value="Display Customer Info"/>
+
+         <apex:pageBlockTable value="{!cu.cusList}" var="a">
+            <apex:column value="{!a.cashier__c}"/>
+            <apex:column value="{!a.Name}"/>
+            <apex:column value="{!a.Is_Served__c}"/>
+            <apex:column value="{!a.Service_status__c}"/>
+            <apex:column value="{!a.subtotal__c}"/>
+            <apex:column value="{!a.tip__c}"/>
+            </apex:pageBlockTable>
+         <apex:commandButton action="{!updateServiceStatus}" value="Custerom Status Update"/>
+
         </apex:pageBlock>
     </apex:form>
 </apex:page>
