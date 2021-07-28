@@ -14,7 +14,6 @@ public class CustomerSelect{
         cset5 = new Set<Customer__c>();
     }
     public void addTip(){
-        clearContainer();
         for(Customer__c c:[select Name, Cashier__c, subtotal__c, tip__c from customer__c]){
             if(c.tip__c>=c.subtotal__c*0.15){cset15.add(c);}
             else if(c.tip__c>=c.subtotal__c*0.10){cset10.add(c);}
@@ -23,13 +22,5 @@ public class CustomerSelect{
         customers15.addAll(cset15);
         customers10.addAll(cset10);
         customers5.addAll(cset5);
-    }
-    public void clearContainer(){
-        customers15.clear();
-        customers10.clear();
-        customers5.clear();
-        cset15.clear(); 
-        cset10.clear();
-        cset5.clear();
     }
 }
