@@ -1,11 +1,11 @@
 <apex:page controller="CustomerServedController">
     <apex:form >
-    	<apex:pageBlock >
+        <apex:pageBlock >
         <apex:pageBlockTable value="{!csServed}" var="a">
-    	<apex:column value="{!a.cashier__c}"/>
-    	<apex:column value="{!a.subtotal__c}"/>
+        <apex:column value="{!a.cashier__c}"/>
+        <apex:column value="{!a.subtotal__c}"/>
         <apex:column value="{!a.tip__c}"/>
-    	</apex:pageBlockTable>
+        </apex:pageBlockTable>
         <apex:commandButton action="{!addServed}" value="Update Served Customers"/>
         </apex:pageBlock>
     </apex:form>
