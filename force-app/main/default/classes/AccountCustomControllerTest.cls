@@ -34,4 +34,12 @@ public class AccountCustomControllerTest {
 	  	system.assertEquals(acct.acc,null);
 	  
   }
+    	 @isTest static void acccontrollertest5(){
+		AccountCustomController acct = new AccountCustomController();
+	  	system.assertEquals(acct.acc,null);
+        system.assertEquals(acct.acc.AnnualRevenue,null);
+        system.assertEquals(acct.acc.AnnualRevenue, 0);
+        system.assertEquals(acct.acc.AnnualRevenue,(Decimal)(Math.random()*2000000)) ;
+	  
+  }
 }

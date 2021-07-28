@@ -1,31 +1,45 @@
 public class AccountCustomController {
-    
-    public List<Account> acctList {get;set;}
+    public List<Account> acctList{get;set;}
+    public AccountCustomController(){
+        
+        acctList=new List<Account>();
+    }
+   
     public Account acc { get {
-    
-    if(acc==null){
-        acc=[SELECT Name,AnnualRevenue,Rating FROM Account WHERE Rating!=''];
-        return acc;
-    }
-    else{
+        Integer count = [SELECT COUNT() FROM Account];
+        Integer rand = Math.floor(Math.random() * count).intValue();
+        if(acc==null)
+            return [SELECT first_name__c,last_name__c,AnnualRevenue,rating FROM Account LIMIT 1 OFFSET :rand];
 
-        if(acc.AnnualRevenue>0 && acc.AnnualRevenue<500000)
-            acc.Rating='Cold';
-        else if(acc.AnnualRevenue>=500000 && acc.AnnualRevenue<1000000 /*	&& bFlag ==false*/){
-            acc.Rating='Warm';
+        
+    else{
+       if(acc.AnnualRevenue<50000000){
+            acc.rating='Cold';  
+            addAccount();
         }
-        else
-            acc.Rating='Hot';       
-    }
-        return acc;               
+        else if(acc.AnnualRevenue>=50000000 && acc.AnnualRevenue<100000000 /*	&& bFlag ==false*/){
+            acc.rating='Warm';
+            addAccount();
+        }
+        else{
+            
+            acc.rating='Hot';       
+            addAccount();
+        }
+        
+        return acc;               }
+
 }
   set; }
-  public void addAccount(){
-        Account a = new Account(AnnualRevenue=Math.round(Math.random()*2000000));
-        acctList.add(a);          
-
+  public void addAccount(){   
+        acctList.add(acc);
+            
   }
   public void saveChanges(){
+      for(Integer i=0;i<=acctList.size();i++){
+        if(acctList.get(i)==acc)
+        acctList.remove(i);
+      }
     upsert acctList;
 
   }
