@@ -10,7 +10,7 @@
         </apex:pageBlockTable>
         <apex:commandButton action="{!addServed}" value="Update Served Customers"/>
             
-        <apex:pageBlockTable value="{!cu.cusList}" var="a">
+        <apex:pageBlockTable value="{!cList}" var="a">
         <apex:column value="{!a.cashier__c}"/>
         <apex:column value="{!a.Name}"/>
         <apex:column value="{!a.Service_Status__c}"/>

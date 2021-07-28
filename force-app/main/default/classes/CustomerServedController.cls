@@ -21,9 +21,7 @@ public class CustomerServedController{
     public void displayCustomerInfo(){
         clearContainer();
         for(Customer__c c: [select Name, Cashier__c, subtotal__c, tip__c, is_Served__c, Service_status__c from customer__c]){
-            if(c.is_Served__c){
                 cList.add(c);
-            }
         }
     }
     public void clearContainer(){
