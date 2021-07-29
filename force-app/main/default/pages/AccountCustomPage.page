@@ -7,9 +7,10 @@
             <apex:column value="{!accs.last_name__c}"/>
             <apex:column value="{!accs.AnnualRevenue}"/>
             <apex:column value="{!accs.Rating}"/>
+   
         </apex:pageBlockTable>
     </apex:pageBlock>
-    <apex:commandbutton value="Add Account" action="{!addAccount}" />
+	 <apex:commandbutton value="Add Account" action="{!updatedata}" />
     <apex:commandButton value="Save Changes" action="{!saveChanges}"/>
 </apex:form>
 </apex:page>
