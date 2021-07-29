@@ -1,0 +1,77 @@
+{
+  "summary": {
+    "outcome": "Failed",
+    "testsRan": 2,
+    "passing": 0,
+    "failing": 2,
+    "skipped": 0,
+    "passRate": "0%",
+    "failRate": "100%",
+    "skipRate": "0%",
+    "testStartTime": "Thu Jul 29 2021 4:00:19 PM",
+    "testExecutionTimeInMs": 15,
+    "testTotalTimeInMs": 15,
+    "commandTimeInMs": 150,
+    "hostname": "https://resilient-moose-d19mat-dev-ed.my.salesforce.com",
+    "orgId": "00D5e000003UNZTEA4",
+    "username": "dillonfreeman1998@resilient-moose-d19mat.com",
+    "testRunId": "7075e00000sg5YD",
+    "userId": "0055e000002eeZmAAI"
+  },
+  "tests": [
+    {
+      "id": "07M5e000004lOoKEAU",
+      "queueItemId": "7095e0000011BDOAA2",
+      "stackTrace": "Class.AccountCustomControllerTest.acccontrollertest1: line 10, column 1",
+      "message": "System.QueryException: List has no rows for assignment to SObject",
+      "asyncApexJobId": "7075e00000sg5YDAAY",
+      "methodName": "acccontrollertest1",
+      "outcome": "Fail",
+      "apexLogId": "07L5e0000012GS5EAM",
+      "apexClass": {
+        "id": "01p5e00000AK6jxAAD",
+        "name": "AccountCustomControllerTest",
+        "namespacePrefix": null,
+        "fullName": "AccountCustomControllerTest"
+      },
+      "runTime": 6,
+      "testTimestamp": "2021-07-29T20:00:23.000+0000",
+      "fullName": "AccountCustomControllerTest.acccontrollertest1",
+      "diagnostic": {
+        "exceptionMessage": "System.QueryException: List has no rows for assignment to SObject",
+        "exceptionStackTrace": "Class.AccountCustomControllerTest.acccontrollertest1: line 10, column 1",
+        "className": "AccountCustomControllerTest",
+        "compileProblem": "",
+        "lineNumber": 10,
+        "columnNumber": 1
+      }
+    },
+    {
+      "id": "07M5e000004lOoLEAU",
+      "queueItemId": "7095e0000011BDOAA2",
+      "stackTrace": "Class.AccountCustomControllerTest.acccontrollertest2: line 31, column 1",
+      "message": "System.QueryException: List has no rows for assignment to SObject",
+      "asyncApexJobId": "7075e00000sg5YDAAY",
+      "methodName": "acccontrollertest2",
+      "outcome": "Fail",
+      "apexLogId": "07L5e0000012GS5EAM",
+      "apexClass": {
+        "id": "01p5e00000AK6jxAAD",
+        "name": "AccountCustomControllerTest",
+        "namespacePrefix": null,
+        "fullName": "AccountCustomControllerTest"
+      },
+      "runTime": 9,
+      "testTimestamp": "2021-07-29T20:00:23.000+0000",
+      "fullName": "AccountCustomControllerTest.acccontrollertest2",
+      "diagnostic": {
+        "exceptionMessage": "System.QueryException: List has no rows for assignment to SObject",
+        "exceptionStackTrace": "Class.AccountCustomControllerTest.acccontrollertest2: line 31, column 1",
+        "className": "AccountCustomControllerTest",
+        "compileProblem": "",
+        "lineNumber": 31,
+        "columnNumber": 1
+      }
+    }
+  ]
+}

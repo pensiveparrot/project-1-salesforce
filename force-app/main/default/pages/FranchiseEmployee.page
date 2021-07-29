@@ -1,0 +1,19 @@
+<apex:page docType="html-5.0" controller="FranchiseEmployeeController">
+<apex:form >
+    <apex:pageBlock >
+        <apex:pageBlockSection >
+            <apex:pageBlockSectionItem >
+                Date: <apex:input type="date" value="{!dat}" id="ofInterest"/>
+            </apex:pageBlockSectionItem>
+        </apex:pageBlockSection>
+    </apex:pageBlock>
+    <apex:pageBlock >
+        <apex:pageBlockTable value="{!franchiseStore}" var="c">
+        <apex:column value="{!c.Name}"/>
+        <apex:column value="{!c.worker__c}"/>
+        <apex:column value="{!c.franchise__c}"/>
+    </apex:pageBlockTable>
+    <apex:commandButton action="{!getWorkers}" value="Get Workers for the Day"/>
+    </apex:pageBlock>
+</apex:form>
+</apex:page>

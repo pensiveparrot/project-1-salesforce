@@ -1,0 +1,4 @@
+<apex:page controller="logoutclass" action="{!logoutCommunity}">
+   <!-- <apex:includeScript value="{!$Resource.logout}"/>-->
+<!--<apex:commandButton id="clickbutton" value="" rendered="{!NOT(ISPICKVAL($User.UserType,'Guest'))}">{!$Label.site.logout}</apex:commandButton>-->
+    </apex:page>
