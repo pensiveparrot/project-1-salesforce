@@ -1,0 +1,317 @@
+{
+  "summary": {
+    "outcome": "Failed",
+    "testsRan": 2,
+    "passing": 0,
+    "failing": 2,
+    "skipped": 0,
+    "passRate": "0%",
+    "failRate": "100%",
+    "skipRate": "0%",
+    "testStartTime": "Thu Jul 29 2021 4:01:18 PM",
+    "testExecutionTimeInMs": 147,
+    "testTotalTimeInMs": 147,
+    "commandTimeInMs": 1,
+    "hostname": "https://resilient-moose-d19mat-dev-ed.my.salesforce.com",
+    "orgId": "00D5e000003UNZTEA4",
+    "username": "dillonfreeman1998@resilient-moose-d19mat.com",
+    "testRunId": "",
+    "totalLines": 37,
+    "coveredLines": 5,
+    "testRunCoverage": "14%",
+    "orgWideCoverage": "1%"
+  },
+  "tests": [
+    {
+      "id": "",
+      "queueItemId": "",
+      "stackTrace": "Class.AccountCustomControllerTest.acccontrollertest1: line 10, column 1",
+      "message": "System.QueryException: List has no rows for assignment to SObject",
+      "asyncApexJobId": "",
+      "methodName": "acccontrollertest1",
+      "outcome": "Fail",
+      "apexLogId": "07L5e0000012GSoEAM",
+      "apexClass": {
+        "id": "01p5e00000AK6jxAAD",
+        "name": "AccountCustomControllerTest",
+        "namespacePrefix": null,
+        "fullName": "AccountCustomControllerTest"
+      },
+      "runTime": 28,
+      "testTimestamp": "",
+      "fullName": "AccountCustomControllerTest.acccontrollertest1",
+      "diagnostic": {
+        "exceptionMessage": "System.QueryException: List has no rows for assignment to SObject",
+        "exceptionStackTrace": "Class.AccountCustomControllerTest.acccontrollertest1: line 10, column 1",
+        "className": "AccountCustomControllerTest",
+        "compileProblem": "",
+        "lineNumber": 10,
+        "columnNumber": 1
+      },
+      "perClassCoverage": [
+        {
+          "apexClassOrTriggerName": "AccountCustomController",
+          "apexClassOrTriggerId": "01p5e00000AJhLcAAL",
+          "apexTestClassId": "01p5e00000AK6jxAAD",
+          "apexTestMethodName": "acccontrollertest1",
+          "numLinesCovered": 5,
+          "numLinesUncovered": 23,
+          "percentage": "18%",
+          "coverage": {
+            "coveredLines": [
+              8,
+              9,
+              10,
+              11,
+              12
+            ],
+            "uncoveredLines": [
+              17,
+              25,
+              26,
+              29,
+              30,
+              31,
+              32,
+              34,
+              35,
+              36,
+              40,
+              41,
+              43,
+              44,
+              52,
+              56,
+              57,
+              58,
+              60,
+              63,
+              64,
+              65,
+              66
+            ]
+          }
+        },
+        {
+          "apexClassOrTriggerName": "Customer",
+          "apexClassOrTriggerId": "01q5e000001gz2TAAQ",
+          "apexTestClassId": "01p5e00000AK6jxAAD",
+          "apexTestMethodName": "acccontrollertest1",
+          "numLinesCovered": 0,
+          "numLinesUncovered": 4,
+          "percentage": "0%",
+          "coverage": {
+            "coveredLines": [],
+            "uncoveredLines": [
+              2,
+              3,
+              4,
+              5
+            ]
+          }
+        },
+        {
+          "apexClassOrTriggerName": "Franchise",
+          "apexClassOrTriggerId": "01q5e000001gz2UAAQ",
+          "apexTestClassId": "01p5e00000AK6jxAAD",
+          "apexTestMethodName": "acccontrollertest1",
+          "numLinesCovered": 0,
+          "numLinesUncovered": 5,
+          "percentage": "0%",
+          "coverage": {
+            "coveredLines": [],
+            "uncoveredLines": [
+              2,
+              3,
+              4,
+              6,
+              7
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "",
+      "queueItemId": "",
+      "stackTrace": "Class.AccountCustomControllerTest.acccontrollertest2: line 31, column 1",
+      "message": "System.QueryException: List has no rows for assignment to SObject",
+      "asyncApexJobId": "",
+      "methodName": "acccontrollertest2",
+      "outcome": "Fail",
+      "apexLogId": "07L5e0000012GSoEAM",
+      "apexClass": {
+        "id": "01p5e00000AK6jxAAD",
+        "name": "AccountCustomControllerTest",
+        "namespacePrefix": null,
+        "fullName": "AccountCustomControllerTest"
+      },
+      "runTime": 19,
+      "testTimestamp": "",
+      "fullName": "AccountCustomControllerTest.acccontrollertest2",
+      "diagnostic": {
+        "exceptionMessage": "System.QueryException: List has no rows for assignment to SObject",
+        "exceptionStackTrace": "Class.AccountCustomControllerTest.acccontrollertest2: line 31, column 1",
+        "className": "AccountCustomControllerTest",
+        "compileProblem": "",
+        "lineNumber": 31,
+        "columnNumber": 1
+      },
+      "perClassCoverage": [
+        {
+          "apexClassOrTriggerName": "AccountCustomController",
+          "apexClassOrTriggerId": "01p5e00000AJhLcAAL",
+          "apexTestClassId": "01p5e00000AK6jxAAD",
+          "apexTestMethodName": "acccontrollertest2",
+          "numLinesCovered": 5,
+          "numLinesUncovered": 23,
+          "percentage": "18%",
+          "coverage": {
+            "coveredLines": [
+              8,
+              9,
+              10,
+              11,
+              12
+            ],
+            "uncoveredLines": [
+              17,
+              25,
+              26,
+              29,
+              30,
+              31,
+              32,
+              34,
+              35,
+              36,
+              40,
+              41,
+              43,
+              44,
+              52,
+              56,
+              57,
+              58,
+              60,
+              63,
+              64,
+              65,
+              66
+            ]
+          }
+        },
+        {
+          "apexClassOrTriggerName": "Customer",
+          "apexClassOrTriggerId": "01q5e000001gz2TAAQ",
+          "apexTestClassId": "01p5e00000AK6jxAAD",
+          "apexTestMethodName": "acccontrollertest2",
+          "numLinesCovered": 0,
+          "numLinesUncovered": 4,
+          "percentage": "0%",
+          "coverage": {
+            "coveredLines": [],
+            "uncoveredLines": [
+              2,
+              3,
+              4,
+              5
+            ]
+          }
+        },
+        {
+          "apexClassOrTriggerName": "Franchise",
+          "apexClassOrTriggerId": "01q5e000001gz2UAAQ",
+          "apexTestClassId": "01p5e00000AK6jxAAD",
+          "apexTestMethodName": "acccontrollertest2",
+          "numLinesCovered": 0,
+          "numLinesUncovered": 5,
+          "percentage": "0%",
+          "coverage": {
+            "coveredLines": [],
+            "uncoveredLines": [
+              2,
+              3,
+              4,
+              6,
+              7
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "codecoverage": [
+    {
+      "apexId": "01q5e000001gz2UAAQ",
+      "name": "Franchise",
+      "type": "ApexTrigger",
+      "numLinesCovered": 0,
+      "numLinesUncovered": 5,
+      "percentage": "0%",
+      "coveredLines": [],
+      "uncoveredLines": [
+        2,
+        3,
+        4,
+        6,
+        7
+      ]
+    },
+    {
+      "apexId": "01q5e000001gz2TAAQ",
+      "name": "Customer",
+      "type": "ApexTrigger",
+      "numLinesCovered": 0,
+      "numLinesUncovered": 4,
+      "percentage": "0%",
+      "coveredLines": [],
+      "uncoveredLines": [
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "apexId": "01p5e00000AJhLcAAL",
+      "name": "AccountCustomController",
+      "type": "ApexClass",
+      "numLinesCovered": 5,
+      "numLinesUncovered": 23,
+      "percentage": "18%",
+      "coveredLines": [
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "uncoveredLines": [
+        17,
+        25,
+        26,
+        29,
+        30,
+        31,
+        32,
+        34,
+        35,
+        36,
+        40,
+        41,
+        43,
+        44,
+        52,
+        56,
+        57,
+        58,
+        60,
+        63,
+        64,
+        65,
+        66
+      ]
+    }
+  ]
+}

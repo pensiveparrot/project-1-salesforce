@@ -1,0 +1,11 @@
+h1 {
+    text-align:center;
+    font-size:x-large;
+}
+
+body {
+    background-color:rgb(0, 0, 139);
+    color:rgb(255,255,255);
+    font-family:sans-serif;
+    font-size:medium;
+}
