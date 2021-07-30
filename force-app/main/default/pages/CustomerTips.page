@@ -1,4 +1,4 @@
-<apex:page controller="CustomerSelectController">
+<apex:page controller="CustomerSelectController" lightningStylesheets="true">
     <apex:form >
     <apex:pageBlock >
     <apex:pageBlockTable value="{!first}" var="c">

@@ -17,3 +17,4 @@ public class CustomerUpdate implements Database.Batchable<sObject>{
     }
     public void finish(Database.BatchableContext bc){}
 }
+
