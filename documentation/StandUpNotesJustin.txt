@@ -1,0 +1,10 @@
+7/19/2021
+Dillon - Refactoring Org- Worker to Account, Account Visual Force Page, Planning
+Justin - Need to determine feature to work on, Planning
+Sen    - Need to determine feature to work on, Planning
+Hitesh - Need to determine feature to work on, Planning
+7/21/2021
+Dillon - Did a Refactor Worker to Account, Visualforce Page
+Justin - Visualforce page, What object am I, Now working on Fanchise Page 
+Sen    - Customer Controller/Visualforce Page, Had problem to organization, Got access to it, Working on Customer
+Hitesh - Github isssues, Visualforce

@@ -1,5 +1,0 @@
-7/19/2021
-Dillon - Refactoring Org- Worker to Account, Account Visual Force Page, Planning
-Justin - Need to determine feature to work on, Planning
-Sen    - Need to determine feature to work on, Planning
-Hitesh - Need to determine feature to work on, Planning
