@@ -1,0 +1,4 @@
+8/11/2021
+dillon: need to do major updating to the logic
+justin: component done, will maybe add today
+sen: added picklist(full)/multi-select picklist(partial, needs refresh to display changes).
