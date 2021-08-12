@@ -1,0 +1,13 @@
+<aura:component implements="forceCommunity:availableForAllPageTypes" access="global" controller="CustomerSelectApxxController" >
+	<aura:attribute name="today" type="Date" />
+    <aura:attribute name="cashier_first_name" type="String"/>
+    <aura:attribute name="totalm" type="decimal"/>
+    <div class="slds-box">
+    <div class="slds-text-heading_large">Customer Sales Total</div>
+    <lightning:input type="date" name="input2" label="Enter a date" value="{!v.today}" updateOn="click"/>
+	<ui:inputText label="Enter cashier first name " class="field" value="{!v.cashier_first_name}" keyup="{!c.searchChange}" updateOn="keyup"/>
+ 	<lightning:button  label="Get Sales Total" onclick="{!c.getFinanc}"/>
+    <ui:outputText  value="{!v.totalm+' usd'}"/> 
+    </div>
+    
+</aura:component>

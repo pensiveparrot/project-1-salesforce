@@ -1,7 +1,17 @@
 @isTest
 private class FranchiseEmployeeControllerTest { 
     
-	@isTest
+    @isTest
+    public static void emptyWorkerTest(){
+        FranchiseEmployeeController controllerTest = new FranchiseEmployeeController();
+        System.assertNotEquals(controllerTest.dat, Date.today());
+        controllerTest.dat = Date.today();
+        controllerTest.getWorkers();
+        System.assertEquals(controllerTest.dat, Date.today());
+        System.assertEquals(controllerTest.franchiseStore.isEmpty(), controllerTest.franchiseStore.Size() == 0);
+    }
+    
+    @isTest
     public static void getWorkersTest(){
         FranchiseEmployeeController controllerTest = new FranchiseEmployeeController();
         worker_schedule__c testWorkerA = new worker_schedule__c(name='testWorkerA',worker__c='Willy',
@@ -16,11 +26,5 @@ private class FranchiseEmployeeControllerTest {
         System.assert(controllerTest.franchiseStore.isEmpty());
         controllerTest.getWorkers();
         System.assertNotEquals(controllerTest.franchiseStore.isEmpty(), controllerTest.franchiseStore.Size() == 0);
-    }
-    
-    @isTest
-    public static void workerTest(){
-        FranchiseEmployeeController controllerTest = new FranchiseEmployeeController();
-        controllerTest.getWorkers();
     }
 }
