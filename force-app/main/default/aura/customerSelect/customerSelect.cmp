@@ -5,7 +5,7 @@
     <div class="slds-box">
     <div class="slds-text-heading_large">Customer Foot Traffic</div>
     <lightning:input type="date" name="input2" label="Enter a date" value="{!v.today}" updateOn="click"/>
-	<ui:inputText label="Enter cashier first name " class="field" value="{!v.cashier_first_name}" updateOn="click"/>
+	<ui:inputText label="Enter cashier first name " class="field" value="{!v.cashier_first_name}" keyup="{!c.searchChange}" updateOn="keyup"/>
  	<lightning:button  label="Get Foot Traffic" onclick="{!c.getFinancials}"/>
     <ui:outputText  value="{!v.totalv+' customers'}"/> 
 
