@@ -1,6 +1,6 @@
-@isTest
-public class CustomerSelectApxControllerTest {
-    @testSetup static void testsetupcustomerselec(){
+@IsTest
+public class CustomerSelectApxxControllerTest {
+    @testSetup static void testsetupcustomerselect(){
         
        
      	list<Account> customerst= new list<Account>();
@@ -14,15 +14,15 @@ public class CustomerSelectApxControllerTest {
         String cashierfirstname='nonullref';
         Date today=Date.newInstance(2021, 8, 11);
         customerst=[SELECT name,first_name__c,last_name__c,AnnualRevenue,rating, customerMoneySubtotal__c FROM Account WHERE first_name__c=:cashierfirstname LIMIT 1];
-     	
+     	CustomerSelectApxxController.getCustomerDataa(cashierfirstname,today);
         
-       CustomerSelectApxController.getCustomerData(cashierfirstname,today);
+       CustomerSelectApxxController.getCustomerDataa(cashierfirstname,today);
         
 		
-    }
-    @isTest static void testcs1(){
+    }  
+ @isTest static void testcs2(){
         String cashierfirstname='nonullref';
         Date today=Date.newInstance(2021, 8, 11);
-        system.assertNotEquals(CustomerSelectApxController.getCustomerData(cashierfirstname,today), null);
-    }   
+        system.assertNotEquals(CustomerSelectApxxController.getCustomerDataa(cashierfirstname,today), null);
+    }
 }
