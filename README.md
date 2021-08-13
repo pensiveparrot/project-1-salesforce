@@ -10,8 +10,8 @@
   ##### Working front-end in the form of an experience cloud site.
   ##### Working authorization(login/logout)
   ##### Working business logic related to little italy in the form of Visualforce Pages.
-  ###### TODO(For project 1):
-  ####### Work on business logic clarity(ex: purpose?)
+  ##### TODO(For project 1):
+  ##### Work on business logic clarity(ex: purpose?)
 #### Getting Started
       ##### Clone main branch using git clone https://github.com/pensiveparrot/project-1-salesforce.git
       ##### Authorize into an org via Salesforce CLI (Install Salesforce CLI here: https://developer.salesforce.com/tools/sfdxcli)
