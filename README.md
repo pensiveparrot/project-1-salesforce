@@ -1,9 +1,21 @@
 
 # LITTLE ITALY
 ### This repo serves as a means of versioning our org changes.
-#### More specifically, this readme.md holds notetaking data.
-
-##### Notes for 7/14/2021
-Justin takes the lead as scrum master.  All of us were reluctant to suggest our project and relied upon a third party polling site (strawpoll.me) which did not seem to work.  This randomization eased the tension and insecurities that we had about our orgs being the represenatitive org for Project 1.  Since the external polling site did not work, all of our names were put into a random.org list randomizer.  Whoever's name was 1st to be in the list twice would have their org revamped using visualforce pages/apex code/other criteria for Project 1.  My name was the first in the list twice so my(Dillon) org will be used for Project 1.  I then proceeeded to setup the repository using branches for each dev, having a dev branch which would be an intermediary between dev and main and then a main branch holding finalized and deployed code.  
-Some things to consider when going forward:
-There are some things that need refactoring.  One of these is naming conventions.  Naming conventions for apinames, fieldnames, etc. in the org will likely need to be more concise, legible and understandable such that when autofill does not want to cooperate one does not have to constantly refer to the org to get names.  Another thing that needs refactoring is the usage of the worker object and any logic that coincides with Worker__c.  This is because it is not only redundant to use a custom object when most of the fields are already standard with Account but also that it leads to less headaches when assigning logic/metadata/related lists/etc.  We then talked about using github (most notably the great github desktop) as well as adding everyone as a collaborator to the repo.    
+####Technologies used for project 1
+  #####Visualforce
+  #####Apex
+  #####Experience cloud
+  #####SOQL
+####Features of project 1
+  #####Working front-end in the form of an experience cloud site.
+  #####Working authorization(login/logout)
+  #####Working business logic related to little italy in the form of Visualforce Pages.
+  ######TODO(For project 1):
+  #######Work on business logic clarity(ex: purpose?)
+####Getting Started
+      #####Clone main branch using git clone https://github.com/pensiveparrot/project-1-salesforce.git
+      #####Authorize into an org via Salesforce CLI (Install Salesforce CLI here: https://developer.salesforce.com/tools/sfdxcli)
+      #####Follow these steps that demonstrate authorizing your org here:https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_auth_web_flow.htm
+      #####Or you can use Visual Studio Code's command palette explained here: https://salesforcediaries.com/2019/03/15/salesforce-cli-and-visual-studio-code-command-palette/
+      #####Deploy using either the salesforce CLI (some variation of sfdx force:source:deploy)
+      #####Or by using Visual Studio Code's command pallete explained here:https://medium.com/@abhishekpal87/sfdx-setup-deploy-using-vscode-d39f8d060a44
