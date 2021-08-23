@@ -12,6 +12,16 @@
   #### Working business logic related to little italy in the form of Visualforce Pages.
   #### TODO(For project 1):
   #### Work on business logic clarity(ex: purpose?)
+## PROJECT 2
+### Technologies used for project 2
+#### Apex
+#### Aura
+#### Web Development(HTML/Javascript/CSS)
+#### By clarifying upon who would be the end user, these aura components are the end design of that clarity. 
+##### With the end user in consideration being a franchise owner, franchisees can now auth in to manage financials and pull customer and worker financial data on a given date.
+###### TODO(For any changes to come):
+####### Fix logic(Why doesn't date have any impact on SOQL select?  Shouldn't it be a major identifier to the relationship query?)
+
 ### Getting Started
 #### Clone main branch using git clone https://github.com/pensiveparrot/project-1-salesforce.git
 #### Authorize into an org via Salesforce CLI (Install Salesforce CLI here: https://developer.salesforce.com/tools/sfdxcli)
