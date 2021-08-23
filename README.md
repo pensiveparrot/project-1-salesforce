@@ -1,6 +1,7 @@
 
 # LITTLE ITALY
-## This repo serves as a means of versioning our org changes.
+### This repo serves as a means of versioning our org changes.
+## PROJECT 1
 ### Technologies used for project 1
   #### Visualforce
   #### Apex
